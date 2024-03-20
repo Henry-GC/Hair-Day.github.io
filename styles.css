@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* display: flex;
+    flex-direction: column; */
+    font-family: "Montserrat";
+}
+/* img{
+    max-width: 100vw;
+} */
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #f2e0d2;
+}
+a:link{
+    color: #f2e0d2;
+}
+/* BODY */
+
+/* Start */
+#home{
+    justify-content: space-between;
+    background-image: url(./src/model\ 1.png);
+    background-size: cover;
+    background-position: top;
+    height: 60rem;
+}
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header figure{
+    margin: 1rem 0 1rem 2rem;
+    width: 10rem;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 2rem 2rem 2rem 0;
+    gap: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* MAIN */
+
+.promotion{
+    display: flex;
+    flex-direction: column;
+    width: 55rem;
+    margin: 15rem 0 0 5rem ;
+}
+.promotion h3{
+    color: #D0604C;
+    margin: 0 0 0 2rem;
+    font-size: 8rem;
+    font-family: "Imperial script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.promotion span{
+    color: #f2e0d2;
+    font-size: 1.8rem;
+}
+.promotion button{
+    margin: 1rem 0;
+    color: #f2e0d2;
+    font-size: 1.5rem;
+    border-radius: .1rem;
+    width: 10rem;
+    height: 4rem;
+    background: #D0604C;
+}
+.products{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.items{
+    background: #f2e0d2;
+    height: 40rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.items h2{
+    font-size: 2.5rem;
+}
+.items span{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.items div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.items button{
+    color: #f2e0d2;
+    font-size: 1.5rem;
+    border-radius: .1rem;
+    width: 12rem;
+    height: 4rem;
+    background: #D0604C;
+}
+#maquillaje{
+    color: #7ec8f6;
+    background-image: url("./src/maquillaje.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#maquillaje span{
+    color: #fff;
+}
+
+/* ACERCA DE */
+.about{
+    text-align: center;
+    margin: 5rem 0 5rem 0;
+}
+.about h1{
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+.about span{
+    font-size: 2rem;
+}
+/* CONTACTO */
+.contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #f2e0d2;
+    height: 93vh;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 1rem;
+    margin: 5rem 0;
+}
+form h1{
+    font-size: 3rem;
+    align-self: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+form div textarea{
+    min-width: 100%;
+    max-width: 100%;
+    height: 10rem;
+}
+form input{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+form button{
+    align-self: center;
+    background-color: #D0604C;
+    color: #f2e0d2;
+    height: 2rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 900;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #34312C;
+}
+#logo-footer{
+    width: 49.9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer figure{
+    width: 20rem;
+}
+#bar{
+    width: .2%;
+    height: 4rem;
+    background-color: #D0604C;
+}
+#copy{
+    display: flex;
+    width: 49.9%;
+    justify-content: center;
+    align-items: center;
+    color: #f2e0d2;
+}
